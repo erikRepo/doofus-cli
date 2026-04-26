@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/doofus-banner.svg" alt="doofus banner" width="100%"/>
+</p>
+
 # doofus-cli
 
 [![SnS Compliant](https://img.shields.io/badge/SnS-Compliant-cba6f7?style=flat-square&labelColor=1e1e2e&logo=diamond&logoColor=cba6f7)](https://github.com/erikRepo/sns-manifesto)
@@ -189,3 +193,5 @@ doofus is the reference implementation of the [SnS manifesto](https://github.com
 ## License
 
 MIT
+
+<img src="assets/doofus-footer.svg" alt="doofus footer" width="100%"/>
