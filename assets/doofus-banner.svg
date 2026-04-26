@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" width="1280" height="200">
+  <defs>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="20%" stop-color="#cba6f7"/>
+      <stop offset="50%" stop-color="#89b4fa"/>
+      <stop offset="80%" stop-color="#94e2d5"/>
+      <stop offset="100%" stop-color="#1e1e2e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="200" fill="#1e1e2e"/>
+  <rect x="1" y="1" width="1278" height="198" fill="none" stroke="#313244" stroke-width="1"/>
+  <rect x="0" y="196" width="1280" height="4" fill="url(#accentLine)" opacity="0.8"/>
+
+  <!-- ASCII art grid -->
+  <text x="110" y="82"
+        font-family="'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace"
+        font-size="18"
+        text-anchor="middle"
+        fill="#45475a">:::::::::::</text>
+  <text x="110" y="104"
+        font-family="'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace"
+        font-size="18"
+        text-anchor="middle">
+    <tspan fill="#45475a">:::::</tspan><tspan fill="#94e2d5">.</tspan><tspan fill="#45475a">:::::</tspan>
+  </text>
+  <text x="110" y="126"
+        font-family="'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace"
+        font-size="18"
+        text-anchor="middle"
+        fill="#45475a">:::::::::::</text>
+
+  <!-- Vertical separator left -->
+  <line x1="225" y1="30" x2="225" y2="170" stroke="#313244" stroke-width="1" opacity="0.8"/>
+
+  <!-- MAIN TITLE -->
+  <text x="650" y="118"
+        font-family="'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace"
+        font-size="88"
+        font-weight="700"
+        text-anchor="middle"
+        letter-spacing="-2">
+    <tspan fill="#cba6f7">doofus</tspan><tspan fill="#6c7086"></tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="650" y="158"
+        font-family="'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace"
+        font-size="16"
+        font-weight="400"
+        text-anchor="middle"
+        letter-spacing="3"
+        fill="#6c7086">ZERO DEPS  ·  LOCAL LLM  ·  YOLO MODE</text>
+
+  <!-- Vertical separator right -->
+  <line x1="1060" y1="30" x2="1060" y2="170" stroke="#313244" stroke-width="1" opacity="0.8"/>
+
+  <!-- Right side text -->
+  <text x="1170" y="88"
+        font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace"
+        font-size="13"
+        text-anchor="middle"
+        letter-spacing="1"
+        fill="#45475a">MINIMAL</text>
+  <text x="1170" y="112"
+        font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace"
+        font-size="13"
+        text-anchor="middle"
+        letter-spacing="1"
+        fill="#45475a">CODING</text>
+  <text x="1170" y="136"
+        font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace"
+        font-size="13"
+        text-anchor="middle"
+        letter-spacing="1"
+        fill="#45475a">AGENT</text>
+
+</svg>
