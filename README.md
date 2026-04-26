@@ -35,6 +35,27 @@ Reasoning mode is on by default. The model thinks before it acts. Use `--no-thin
 
 ---
 
+## Why another coding agent?
+
+Honestly? Because I couldn't audit the ones I loved.
+
+I use Pi, I've tried the others — they're great. But at some point I wanted to
+know exactly what was running on my machine, talking to my files, executing
+commands in my shell. Not at a high level. Line by line.
+
+Most agents are too large for that. Not because they're bad — because they're
+built for everyone, with every feature, for every use case. That's a reasonable
+choice. It just wasn't the choice I needed.
+
+doofus is the other choice. Small enough that you can read the whole thing over
+a coffee. Simple enough that you can fork it, strip it down further, or just
+run it with confidence because you've seen every line it will ever execute.
+
+No magic. No surprises. Just a few hundred lines of Rust and an honest
+`docker-compose.yml`.
+
+---
+
 ## Requirements
 
 - [Ollama](https://ollama.com) running on `localhost:11434`
